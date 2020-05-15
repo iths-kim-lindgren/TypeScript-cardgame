@@ -1,0 +1,14 @@
+/* &spades; {
+
+} */
+
+@charset "UTF-8";
+
+h1::before, h1::after{
+    content: '/&spades;';
+    padding: 10px;
+}
+
+h1 {
+     color: blue;
+}

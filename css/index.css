@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #eee;
+}
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+main > article.card {
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    border-radius: 5%;
+    color: #222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: .6rem;
+    border-radius: 4px;
+}
+
+.card header, .card footer {
+    /* background: khaki; */
+    align-self: flex-start;
+}
+
+.card footer {
+    transform: rotateZ(180deg);
+    align-self: flex-end;
+}
+
+.card p {
+    padding: 0;
+    margin: 0;
+}
+
+.red {
+    color: red;
+}
+
+h1 {
+    font-size: 5rem;
+    margin: 0;
+    padding: 0;
+}
+
+body > footer {
+    height: 20vh;
+    background: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
